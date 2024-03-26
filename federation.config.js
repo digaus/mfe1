@@ -16,7 +16,8 @@ module.exports = withNativeFederation({
     ...share(
         [
           '@angular/common/locales/de',
-          '@angular/common/locales/de-DE',
+          // this locale does not exist in the package
+          // '@angular/common/locales/de-DE',
         ].reduce(
           (acc, name) => ({
             ...acc,
